@@ -7,7 +7,7 @@
 | 项 | 值 |
 |---|---|
 | 版本 | **v0.1.4** |
-| build | — |
+| build | 202611181811 |
 | 发布日期 | 2026-11-18 |
 | 安装包 | [`Workbench-0.1.4.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.4.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |

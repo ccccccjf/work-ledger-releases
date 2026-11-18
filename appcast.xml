@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>个人工作台</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 18 Nov 2026 17:41:34 +0800</pubDate>
+            <ns0:version>202611181736</ns0:version>
+            <ns0:shortVersionString>0.1.0</ns0:shortVersionString>
+            <ns0:minimumSystemVersion>12.0</ns0:minimumSystemVersion>
+            <ns0:hardwareRequirements>arm64</ns0:hardwareRequirements>
+            <ns0:releaseNotesLink>https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.0.md</ns0:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.0.dmg" length="1862779" type="application/octet-stream" ns0:edSignature="0P1G7bEopbqZQ0F5PKYxFP+1eib/jUCWaW4VpIA75JjXHkFhMUdIfG37kitXnN9oOltr+CSt+Z0a3JC42x+LDg==" />
+        </item>
+    </channel>
+</rss>

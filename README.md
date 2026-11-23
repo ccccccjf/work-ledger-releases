@@ -6,25 +6,26 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.6** |
-| build | 202611231121 |
+| 版本 | **v0.1.7** |
+| build | 202611231154 |
 | 发布日期 | 2026-11-23 |
-| 安装包 | [`Workbench-0.1.6.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.6.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.7.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.7.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 会议录音真正改为 m4a（MP4 / AAC 容器），不再产出 webm：
-  此前只在界面文案上改了格式，录音容器仍是 WebKit 默认的 webm
-- 录音容器按系统能力择优：`audio/mp4` → 不支持时回落 `audio/webm`，保存提示会写明实际格式
-- 保存录音时不再由原生层默认按 webm 处理，扩展名以页面给出的文件名为准
-- 会议页提示改为「录音存为 m4a（AAC），本地留存」
+- 左下角的「数据管理」并入设置：设置页新增「数据管理」面板，含数据统计、加密备份、JSON 导出/导入、
+  载入示例、清空全部与回收站；原底部入口移除
+- 左下角改为「设置」按钮（原来数据管理的位置），导航里重复的「设置」项一并去掉
+- 设置按钮旁新增更新小按钮：检查到新版本时高亮（琥珀底 + 红点 + 图标转动），
+  点一下直接弹出更新窗口，不用先进入设置
+- 设置页「版本与更新」发现新版本时直接写出「发现新版本 vX」与安装方式
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.6.dmg`
+1. 下载上面的 `Workbench-0.1.7.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

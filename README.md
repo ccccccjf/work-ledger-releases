@@ -6,22 +6,23 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.10** |
-| build | 202611231339 |
+| 版本 | **v0.1.11** |
+| build | 202611231445 |
 | 发布日期 | 2026-11-23 |
-| 安装包 | [`Workbench-0.1.10.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.10.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.11.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.11.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 暂时连不上更新源时，提示里补上当前版本（如「无法确认是否最新（当前 v0.1.10）」），
-  避免只给一句「确认不了」而无从判断自己装的是哪一版
+- 侧栏更新按钮改成淡绿色高亮（原琥珀色太扎眼），红点改为同色系绿点
+- 按钮里的图标换成正圆环 + 高亮弧：原来那两段弧拼出来的形状不闭合，转起来像个钩子
+- 按钮固定为 32×32 方块：此前被 flex 拉成长条，展开与折叠两种状态都改回方形
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.10.dmg`
+1. 下载上面的 `Workbench-0.1.11.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

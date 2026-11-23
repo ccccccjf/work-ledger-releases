@@ -6,23 +6,22 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.9** |
-| build | 202611231336 |
+| 版本 | **v0.1.10** |
+| build | 202611231339 |
 | 发布日期 | 2026-11-23 |
-| 安装包 | [`Workbench-0.1.9.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.9.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.10.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.10.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 连不上更新源时的提示再收敛一档：不再说「失败」，改为「暂时连不上更新源，无法确认是否最新（当前 vX）」
-- 设置页对应状态条改为中性底色「检查未完成」，不再显示成红色错误
-- 此前已确认过最新时，按上次结果提示并注明检查时间
+- 暂时连不上更新源时，提示里补上当前版本（如「无法确认是否最新（当前 v0.1.10）」），
+  避免只给一句「确认不了」而无从判断自己装的是哪一版
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.9.dmg`
+1. 下载上面的 `Workbench-0.1.10.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

@@ -3,14 +3,14 @@
     <channel>
         <title>个人工作台</title>
         <item>
-            <title>0.1.5</title>
-            <pubDate>Mon, 23 Nov 2026 11:12:09 +0800</pubDate>
-            <sparkle:version>202611231111</sparkle:version>
-            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <title>0.1.6</title>
+            <pubDate>Mon, 23 Nov 2026 11:21:52 +0800</pubDate>
+            <sparkle:version>202611231121</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.5.md</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.5.dmg" length="1616023" type="application/octet-stream" sparkle:edSignature="+AQjirKyn3N3740vr3nYB5wf+Y1PXkAul3rmj1orVzof/K1OhyvDZPV25ZPpmrx+LCThDXKfDvL+gi1E/d5XAw=="/>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.6.md</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.6.dmg" length="1616544" type="application/octet-stream" sparkle:edSignature="EuCkGGC8sOo59Su7CuPbJcw46o7ZGeYrXWZjNvZybxzLQ2Oju2aGabQerg4cNDV6Mp/Zy9TNTrHQ3CMVTIvQDw=="/>
         </item>
     </channel>
 </rss>

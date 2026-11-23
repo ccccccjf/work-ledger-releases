@@ -6,26 +6,27 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.7** |
-| build | 202611231154 |
+| 版本 | **v0.1.8** |
+| build | 202611231333 |
 | 发布日期 | 2026-11-23 |
-| 安装包 | [`Workbench-0.1.7.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.7.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.8.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.8.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 左下角的「数据管理」并入设置：设置页新增「数据管理」面板，含数据统计、加密备份、JSON 导出/导入、
-  载入示例、清空全部与回收站；原底部入口移除
-- 左下角改为「设置」按钮（原来数据管理的位置），导航里重复的「设置」项一并去掉
-- 设置按钮旁新增更新小按钮：检查到新版本时高亮（琥珀底 + 红点 + 图标转动），
-  点一下直接弹出更新窗口，不用先进入设置
-- 设置页「版本与更新」发现新版本时直接写出「发现新版本 vX」与安装方式
+- 检查更新不再弹英文「Update Error!」窗口：改为应用内自检，失败只用中文提示一句原因
+- 已经是最新时直接提示「已是最新版本 vX」，不弹任何窗口
+- 暂时连不上更新源、但此前已确认最新时，按上次结果提示（注明检查时间），不报错
+- 只有确实发现新版本才唤起 Sparkle 的更新窗口，一次点击直达安装
+- 左下角更新按钮只在真有新版本时点亮，正在检查时不再闪
+- 补充中文本地化声明，Sparkle 自己的窗口也按中文显示
+- Sparkle 的内置定时检查关闭，统一由应用启动时的静默自检负责
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.7.dmg`
+1. 下载上面的 `Workbench-0.1.8.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

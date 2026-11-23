@@ -6,25 +6,24 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.4** |
-| build | 202611181811 |
-| 发布日期 | 2026-11-18 |
-| 安装包 | [`Workbench-0.1.4.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.4.dmg)（约 2 MB） |
+| 版本 | **v0.1.5** |
+| build | 202611231111 |
+| 发布日期 | 2026-11-23 |
+| 安装包 | [`Workbench-0.1.5.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.5.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 更新源改为应用内置、不提供修改入口：设置页只显示「更新通道已内置，不可修改」，
-  地址由原生层固定读取（本地数据里即使残留或被人为改写也不会生效）
-- 发布仓库开始做版本管控：只保留最新一个版本的安装包，旧版本不再提供下载
-- 发布仓库的 README 每次自动重写：最新版本号、发布日期、本次更新内容、安装与更新方式
-- 历史更新记录同步到发布仓库的 CHANGELOG.md
+- 示例数据机制：首次启动载入的示例会打上标记，页面顶部有醒目提示条，每条记录前有「示例」小标
+- 录入第一条真实数据（新建工作项、记录会议、待确认导入、资料入库、保存复盘）时，示例数据自动清空
+- 提示条可一键「清空示例并开始」，或「保留当草稿」把示例转成自己的数据
+- 数据管理里「载入示例」会重新打标记，导入 JSON 或清空全部则视为真实数据
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.4.dmg`
+1. 下载上面的 `Workbench-0.1.5.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

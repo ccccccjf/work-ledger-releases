@@ -6,21 +6,21 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.17** |
-| build | 202611270224 |
+| 版本 | **v0.1.18** |
+| build | 202611270229 |
 | 发布日期 | 2026-11-27 |
-| 安装包 | [`Workbench-0.1.17.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.17.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.18.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.18.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 后台自动同步完成后，左侧「会议」的数量角标即时更新（之前要切一次页面才变）
+- 会议卡片的同步状态更紧凑：时间只留「月-日 时:分」，一行看得完
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.17.dmg`
+1. 下载上面的 `Workbench-0.1.18.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

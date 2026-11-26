@@ -6,24 +6,27 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.13** |
-| build | 202611262220 |
-| 发布日期 | 2026-11-26 |
-| 安装包 | [`Workbench-0.1.13.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.13.dmg)（约 2 MB） |
+| 版本 | **v0.1.14** |
+| build | 202611270052 |
+| 发布日期 | 2026-11-27 |
+| 安装包 | [`Workbench-0.1.14.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.14.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 更新源改为双通道：Gitee（国内可达，优先）与 GitHub raw（备用），检查时依次尝试，
-  哪个先通就用哪个，下载也走同一源，避免「查得到、装不上」
-- 发布脚本 `publish.sh` 一次把安装包与 appcast 推到两个仓库，两边都只保留最新版本
-- 修复 Gitee 的 raw 会 302 跳转的问题（应用侧自动跟随，无需额外处理）
+- 会议详情页加「← 返回会议列表」按钮，面包屑不再是唯一出口
+- 腾讯会议智能纪要按原结构排版：会议主题/发言人/摘要单独成块，「一、二、」小节带标线，
+  编号条目改成列表——不再是糊成一大段的纯文本
+- 新增逐字稿：可从腾讯会议按「时间 + 说话人 + 内容」拉取，显示为对话样式
+- 新增录制区块：列出云录制的名称、时长、类型，可一键打开播放或复制链接
+- 会议页支持直接新建腾讯会议：填主题、开始时间、时长、密码，可选自动云录制，
+  创建后给出会议号与入会链接，可直接复制发给对方
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.13.dmg`
+1. 下载上面的 `Workbench-0.1.14.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 

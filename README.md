@@ -6,24 +6,21 @@
 
 | 项 | 值 |
 |---|---|
-| 版本 | **v0.1.15** |
-| build | 202611270134 |
+| 版本 | **v0.1.17** |
+| build | 202611270224 |
 | 发布日期 | 2026-11-27 |
-| 安装包 | [`Workbench-0.1.15.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.15.dmg)（约 2 MB） |
+| 安装包 | [`Workbench-0.1.17.dmg`](https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/Workbench-0.1.17.dmg)（约 2 MB） |
 | 更新源 | `https://raw.githubusercontent.com/ccccccjf/work-ledger-releases/main/appcast.xml` |
 
 ### 本次更新内容
 
-- 会议页新增「待召开」页签：列出未开始的腾讯会议（主题、时间、会议号）
-- 待召开会议可直接改期（主题/开始/结束/密码）、取消、复制入会信息
-- 参会人管理：查看已邀请的人，按姓名搜索同事并添加到邀请名单
-- 修复腾讯会议桥接的回调并发问题：多个调用同时进行时结果会互相顶掉（改为按动作排队）
+- 后台自动同步完成后，左侧「会议」的数量角标即时更新（之前要切一次页面才变）
 
 ---
 
 ## 安装
 
-1. 下载上面的 `Workbench-0.1.15.dmg`
+1. 下载上面的 `Workbench-0.1.17.dmg`
 2. 打开 dmg，把「个人工作台」拖进「应用程序」
 3. 首次打开若提示「无法验证开发者」：右键点应用 → 打开（应用未做 Apple 公证）
 
